@@ -20,9 +20,6 @@
     padding-top: 124px;
   }
   
-  body.modal-open {
-      overflow: hidden;
-  }
   
   nav {
     background: var(--gold-yellow);
