@@ -1,0 +1,284 @@
+:root {
+    --dark-blue: #002B49;
+    --v-light-blue: rgb(0, 163, 224);
+    --m-light-blue: rgb(113, 178, 201, 1);
+    --orange: rgb(229, 114, 0);
+    --gold-yellow: rgb(241, 196, 0);
+    --soft-yellow: rgb(254, 209, 65);
+    --warm-gray: rgb(110, 98, 89);
+    --dark-blue: rgb(0, 43, 73);
+    --maroon: rgb(111, 44, 63);
+    --green: rgb(159, 145, 42);
+    --cool-gray: rgb(208, 208, 206);
+    --brown: rgb(139, 111, 78);
+  }
+  
+  body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    background: black;
+    padding-top: 124px;
+  }
+  
+  body.modal-open {
+      overflow: hidden;
+  }
+  
+  nav {
+    background: var(--gold-yellow);
+    height: 50px;
+  }
+  
+  h1 {
+    font-family: 'Cinzel', serif;
+  }
+  
+  hr {
+    width: 20vw;
+  }
+  
+  p {
+    line-height: 2.3rem;
+    color: #333;
+  }
+  
+  input {
+    margin-top: 30px;
+  }
+  
+  .rush-form {
+    width: 25rem;
+    margin-left: 25px;
+  }
+  
+  .content-container img {
+    margin: 15px;
+  }
+  
+  .first-two-words  {
+    font-size: 3.5rem;
+  }
+  
+  
+  .half-page-hero {
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    z-index: -1;
+  }
+  
+
+  
+  .fa {
+    font-size: 60px;
+    padding: 5px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    transition: .5s;
+    color: var(--cool-gray);
+  }
+  
+  .fa:hover {
+    color: white;
+    transition: .5s;
+    text-decoration: none;
+  }
+  
+  
+  .big-words {
+    font-size: 5vw;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 2px 12px black;
+    font-family: 'Marcellus SC', serif;
+    padding-bottom: 45px;
+    padding-top: 20px;
+  }
+  
+  .twenty-padding {
+    padding: 20px;
+  }
+  
+  .navbar-toggler {
+    color: white;
+  }
+  
+  .display-4, .lead {
+    color: white;
+  }
+  
+ 
+  .navbar, .nav-fill {
+    color: #1c2144;
+    font-weight: 500;
+    transition: .3s;
+  }
+  
+  .nav-fill:hover  {
+    color: var(--v-light-blue);
+    transition: .3s;
+  }
+  
+  .tab-content {
+    background: #fcfbf9;
+    overflow: hidden;
+    z-index: 1;
+    padding-bottom: 120px;
+  }
+    
+  .content-container {
+    margin-top: 100px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    animation: fadeIn 2.4s;
+    -webkit-animation: fadeIn 2.4s;
+  }
+  
+  .automargin {
+    margin: auto;
+  }
+  
+  #topContainer, #separatorBar, #bottomBanner, .tabs, .card, img, form, .big-words, .selectDisable {
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -o-user-select: none;
+      user-select: none;
+  }
+  
+  .selectEnable {
+      -webkit-user-select: text;
+      -khtml-user-select: text;
+      -moz-user-select: text;
+      -o-user-select: text;
+      user-select: text;
+  }
+  
+
+
+  
+  
+  #wrapper {
+      margin: 0;
+      background-color: #fcfbf9;
+  }
+  
+  #grayBar {
+    height: 4px;
+    background: #222;
+  }
+  
+  #topContainer {
+    margin-top: -120px;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    box-shadow: 0px 2px 4px #444;
+  
+  }
+  
+  #topBanner {
+    height: 230px;
+    margin: 0;
+    padding: 30px;
+    background: var(--dark-blue);
+  }
+  
+  #staticTopBanner {
+    height: 70px;
+    padding: 17px;
+    background: var(--dark-blue);
+    margin: 0;
+  }
+  
+  #middleBanner {
+    background-image: url("assets/img/derbyDaysHouse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 710px;
+    margin: 0;
+  }
+  
+  #separatorBar {
+    background-color: var(--maroon);
+    height: 33px;
+    position: relative;
+  }
+  
+  #bottomBanner {
+    background-image: url("https://stmed.net/sites/default/files/dark-textures-wallpapers-25193-2211018.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    position: relative;
+  }
+  
+  #bigLogoText {
+    font-size: 90px;
+  }
+  
+  #bigLogoText, #smallLogoText, #topBanner {
+    transition: 0.3s;
+  }
+  
+  #chrest-image {
+    max-width: 140px;
+    height: auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -70px;
+    top: -82px;
+    z-index: 1;
+  }
+  
+  #chrest-image-link {
+    z-index: 99;
+  }
+  
+  #learnMoreButton {
+    background: var(--orange);
+    border: none;
+    border-radius: 1px;
+    width: 170px;
+    height: 45px;
+    transition: .4s;
+    outline: none;
+  }
+  
+  #learnMoreButton:hover {
+    background: white;
+    color: var(--orange);
+    transition: .4s;
+  }
+  
+  #learnMoreButton:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #learnMoreButton:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+  
+  #topBanner h1 a, #staticTopBanner h1 a {
+    color: white;
+  }
+  
+  #topBanner h1 a:hover, #staticTopBanner h1 a:hover {
+    text-decoration: none;
+  }
+  
+  #innerWrapper {
+    background-color: #fcfbf9;
+  }
+  
